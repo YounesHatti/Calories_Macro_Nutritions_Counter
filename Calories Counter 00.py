@@ -1,4 +1,4 @@
-#Calories counter
+# Calories counter
 
 Age = input("Enter your age (in years): ")
 Height = input("Enter your height (in cm): ")
@@ -52,11 +52,11 @@ else:
 
 ProCal = Prot*4
 
-#Fat is necessary
+# Fat is necessary
 Fat = W
 FatCal = Fat*9
 
-#Carbs
+# Carbs
 CarbCal = TDEE - FatCal - ProCal
 Carb = CarbCal/4
 
