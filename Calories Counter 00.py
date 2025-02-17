@@ -6,7 +6,7 @@ Weight = input("Enter your weight(in kg): ")
 Sex = input("Enter M for Male, F for Female: ")
 Goal = input("Type 'G' if you want to gain weight, 'L' if you want to lose weight: ")
 
-# Convert variables into floats to use in the calculations.
+# Convert variables into floats to use in the calculations. 
 
 A = float(Age)
 H = float(Height)
@@ -73,3 +73,5 @@ print("""
         To gain weight, you need to eat more calories than your TDEE (+300 cal recommanded)
             """)
 input("press any key to exit app")
+
+# End for now.
